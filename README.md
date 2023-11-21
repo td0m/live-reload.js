@@ -4,3 +4,6 @@
 3. reload backend on save.
    - I do this via `find . | entr -rs 'go run ./'`
 4. party!
+
+I also recommend filtering out these requests from the network tab with the following filter:
+ - `-regexp:/health$`
